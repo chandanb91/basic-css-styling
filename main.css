@@ -86,7 +86,7 @@
     padding: 0.5rem 0;
 }
 
-@media (min-width: 20rem) {
+@media (min-width: 41rem) {
     .plan__lists {
         width: 100%;
         text-align: center;
