@@ -56,6 +56,8 @@ main {
     font-size: 1.2rem;
     background: white;
     font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
 }
 
 .clearfix {
