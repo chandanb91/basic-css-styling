@@ -1,3 +1,15 @@
+@font-face {
+    font-family: "AnonymousPro";
+    src: url("anonymousPro-Regular.ttf"); 
+    /* src url filename imports need to start with lower case for Internet Explorer Compatibility */
+}
+
+@font-face {
+    font-family: "AnonymousPro";
+    src: url("anonymousPro-Bold.ttf");
+    font-weight: 700;
+}
+
 main {
     padding-top: 2rem;
 }
@@ -55,9 +67,8 @@ main {
     color: #0e4f1f;
     font-size: 1.2rem;
     background: white;
-    font-family: "Roboto", sans-serif;
-    font-weight: 900;
-    font-style: italic;
+    font-family: "AnonymousPro", sans-serif;  
+    font-weight: 700;
 }
 
 .clearfix {
