@@ -65,10 +65,12 @@ main {
     padding: 1rem;
     border: 1px solid #0e4f1f;
     color: #0e4f1f;
-    font-size: 1.2rem;
     background: white;
+    /* font-size: 1.2rem;
     font-family: "AnonymousPro", sans-serif;  
-    font-weight: 700;
+    font-weight: 700; */
+    font: 700 1.2rem "AnonymousPro", sans-serif;
+    /* font: font-style font-variant font-weight font-size/line-height font-family */
 }
 
 .clearfix {
